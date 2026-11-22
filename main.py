@@ -2,12 +2,13 @@
 """Make.fun entry: news-image-20261121.
 
 Copies the committed front-page image (entry.png, 1024x1024, Saturday
-21 November 2026 world news, partial-day v1 edition) to the harness output
-directory. Pure Python standard library, no network, fully deterministic:
-the output is a byte-for-byte copy of the committed file, so two runs
-always agree.
+21 November 2026 world news, full-day v2 edition) to the harness output
+directory. Lead: Iran strikes US bases in Bahrain; second: Poland invokes
+NATO Article 4. Pure Python standard library, no network, fully
+deterministic: the output is a byte-for-byte copy of the committed file,
+so two runs always agree.
 Verified: two consecutive runs produce identical sha256
-(d53ba21f8d8ee91f6efac4b7b656fedc563585aa3d1e3df338ac95ecb5bc77e6).
+(5da34065e7b76b0efbcc349b719d46af57486cb2cdbf65e018b4632941295fad).
 """
 import os
 import shutil
